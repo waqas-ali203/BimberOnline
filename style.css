@@ -1,0 +1,136 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+.main-page{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(assets/about-background.jpg);
+    background-size: cover;
+    color: white !important;
+}
+.first-column-landing{
+    margin: auto 0 !important;
+}
+.main-page-heading{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.primary-paragraph{
+    font-size: 20px;
+    
+}
+.nav-link:hover{
+    background-color: orangered;
+}
+.cart-button{
+    color: orangered !important;
+}
+.main-button{
+    background-color: orangered;
+}
+.main-button:hover{
+    transform: translateY(-0.7rem);
+    transition: 1s all;
+  /* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
+}
+#downarrow-icon{
+    font-size: 120px;
+    color: orangered;
+    margin-top: -60px;
+}
+.section-arrow {
+    position: relative;
+    width: 50px;
+    height: 100px;
+}
+
+#downarrow-icon {
+    position: absolute;
+    top: 0;
+    animation: arrowAnimation 3s linear infinite;
+}
+
+@keyframes arrowAnimation {
+    0%, 100% {
+        top: 0;
+        animation-timing-function: ease-in-out;
+    }
+    50% {
+        top: 60px; /* Arrow moves down */
+        animation-timing-function: ease-out;
+    }
+}
+
+.service-button{
+    color: orangered;
+}
+.icon{
+    color: orangered;
+}
+/**************  SECTION SERVICES ***************/
+
+.service-heading{
+    font-size: 40px;
+}
+.service-paragraph{
+    font-size: 18px;
+    /* font-weight: ; */
+}
+.service-button:hover{
+    transform: translateY(-0.7rem);
+    transition: 1s all;
+}
+
+
+/**************  SECTION NUMBER ***************/
+
+.number{
+    color: rgb(187, 189, 191);
+    font-size: 60px !important;
+    font-weight: 700;
+}
+/* .orange-back::before{
+    content: "";
+    width: 50%;
+    height: 60%;
+    background-color: orangered;
+    /* z-index: -1; */
+    /* position: relative;
+} */ 
+.section-signature{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(assets/about-background.jpg);
+    background-size: cover;
+}
+
+
+
+.main-container {
+    position: relative;
+     /* You can adjust the width as needed */
+}
+.inner-container {
+    position: absolute;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+}
+.owner-signature{
+    color: orangered;
+}
+
+
+/************   PRODUCT SESSION *****/
+
+.product-heading{
+    font-size: 50px;
+}
+
+/**************  SECTION EXPERIENCE ***************/
+
+.experience-columns{
+    background-color: hsl(147, 40%, 90%);
+}
+.experience-heading{
+    color: orangered !important;
+}
